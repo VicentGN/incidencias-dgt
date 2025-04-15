@@ -1,0 +1,1942 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Visor",
+      "header": true,
+      "footer": true
+    },
+    "page_3": {
+      "id": "page_3",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_25"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "Acerca de",
+      "header": true,
+      "footer": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_16",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_25": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_30",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_28": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_33",
+          "bbox": {
+            "left": "38.3%",
+            "right": "38.3%",
+            "top": "33.2%",
+            "bottom": "28.2%",
+            "width": "23.4%",
+            "height": "38.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_34": {
+      "type": "GRID",
+      "order": [
+        "0",
+        "1",
+        "3"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 28.98
+          },
+          "gridType": 3,
+          "parent": "2",
+          "setting": {},
+          "widgetId": "widget_31"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": 71.02
+          },
+          "parent": "2",
+          "gridType": 3,
+          "widgetId": "widget_32",
+          "expandable": true
+        },
+        "2": {
+          "gridType": 0,
+          "bbox": {
+            "width": 100
+          },
+          "children": [
+            "0",
+            "1"
+          ]
+        }
+      },
+      "setting": {
+        "rootItem": "2"
+      }
+    },
+    "layout_35": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "3"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30px",
+            "top": "50%",
+            "width": 300,
+            "height": "50.8073%"
+          },
+          "widgetId": "widget_35",
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true,
+              "height": "AUTO"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "84.0637%",
+            "top": "50%",
+            "width": "204px",
+            "height": "48px",
+            "right": "20.00px"
+          },
+          "widgetId": "widget_36",
+          "setting": {
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "AUTO",
+              "width": "AUTO"
+            },
+            "vCenter": true
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "top": "50%",
+            "width": "36.9785%",
+            "height": "100.00%"
+          },
+          "widgetId": "widget_37",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      }
+    },
+    "layout_36": {
+      "type": "ROW",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 4,
+            "width": 4,
+            "height": "55px"
+          },
+          "widgetId": "widget_39",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            },
+            "heightMode": "fixed",
+            "aspectRatio": 0.38
+          }
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "label": "Default"
+    },
+    "layout_37": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "top": "10.00%",
+            "width": 300,
+            "height": "21.4307%"
+          },
+          "widgetId": "widget_35",
+          "setting": {
+            "vCenter": false,
+            "hCenter": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "width": "AUTO"
+            }
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "top": "70.00%",
+            "width": 204,
+            "height": 48,
+            "right": 94
+          },
+          "widgetId": "widget_36",
+          "setting": {
+            "hCenter": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "width": "AUTO",
+              "height": "AUTO"
+            },
+            "vCenter": false
+          },
+          "isPending": false
+        },
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "30.00%",
+            "bottom": "37.6%",
+            "width": "100.0%",
+            "height": "35.00%"
+          },
+          "widgetId": "widget_41",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "6"
+      ]
+    },
+    "layout_38": {
+      "type": "ROW",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "setting": {
+              "autoProps": {
+                "height": "STRETCH"
+              }
+            },
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 4,
+            "width": 4,
+            "height": "28px"
+          },
+          "widgetId": "widget_39"
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "label": "Default"
+    },
+    "layout_62": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_61",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_63": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_63",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Primero",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_64": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_67",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Segundo",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_67": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "bbox": {
+            "bottom": "4.0%",
+            "width": "14.2%",
+            "height": "3.6%",
+            "left": "7px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_68": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {},
+          "setting": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "bbox": {},
+          "setting": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_68",
+          "bbox": {},
+          "setting": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_69",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "1",
+        "0",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "exbVersion": "1.17.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/ink/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1024,
+        "height": 768
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_30": {
+      "uri": "widgets/layout/grid/",
+      "version": "1.17.0",
+      "label": "Cuadrícula",
+      "config": {},
+      "id": "widget_30",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_34"
+        }
+      }
+    },
+    "widget_31": {
+      "uri": "widgets/common/image/",
+      "version": "1.17.0",
+      "label": "Imagen",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {},
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_31"
+    },
+    "widget_32": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto",
+      "config": {
+        "text": "<p style=\"text-align: left;\">Visor de información de incidencias de tráfico. Información ofrecida por la Dirección General de Tráfico a través de los contenidos de ESRI</p>",
+        "placeholder": "Haga doble clic para editar texto",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_32"
+    },
+    "widget_33": {
+      "uri": "widgets/common/menu/",
+      "version": "1.17.0",
+      "label": "Menú",
+      "config": {
+        "type": "nav",
+        "vertical": false,
+        "menuStyle": "pills"
+      },
+      "id": "widget_33",
+      "style": {
+        "background": {
+          "color": "",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_35": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "Texto 2",
+      "config": {
+        "text": "<p>Vicent García - 2025</p>",
+        "placeholder": "<p><span style=\"font-size: 13px;\">Información de copyright</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true
+        }
+      },
+      "id": "widget_35"
+    },
+    "widget_36": {
+      "uri": "widgets/common/share/",
+      "version": "1.17.0",
+      "offPanel": true,
+      "label": "Compartir",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M8 0v2H2v12h12V8h2v6a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h6zm2 0v2h2.5l-8 8L6 11.5l8-8V6h2V0h-6z\" fill-rule=\"evenodd\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#585858",
+              "size": 24,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            {
+              "id": "embed",
+              "enable": true
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": false
+            }
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            {
+              "id": "facebook",
+              "enable": false
+            },
+            {
+              "id": "twitter",
+              "enable": false
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": true
+            },
+            {
+              "id": "embed",
+              "enable": false
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "sharelink",
+              "enable": true
+            }
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": "5px",
+            "btnColor": "rgba(0,0,0,0.4)",
+            "iconColor": "",
+            "size": "default"
+          }
+        }
+      },
+      "id": "widget_36"
+    },
+    "widget_37": {
+      "uri": "widgets/layout/row/",
+      "version": "1.17.0",
+      "label": "Fila",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_37",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_36"
+        }
+      }
+    },
+    "widget_39": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "Botón 2",
+      "config": {
+        "functionConfig": {
+          "text": "Portfolio",
+          "toolTip": "https://vicentgn.github.io/portfolio/",
+          "linkParam": {},
+          "textExpression": null,
+          "toolTipExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Información",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/suggested/info.svg",
+                "path": [
+                  "general",
+                  "info"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "name": "Default",
+          "themeStyle": {
+            "quickStyleType": "link"
+          },
+          "customStyle": {
+            "regular": {},
+            "hover": {},
+            "clicked": {}
+          }
+        }
+      },
+      "id": "widget_39"
+    },
+    "widget_41": {
+      "uri": "widgets/layout/row/",
+      "version": "1.17.0",
+      "label": "Fila 2",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_41",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_38"
+        }
+      }
+    },
+    "widget_61": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.17.0",
+      "label": "Barra lateral",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "RIGHT",
+          "offsetX": -15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_61",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_63"
+        },
+        "SECOND": {
+          "LARGE": "layout_64"
+        }
+      }
+    },
+    "widget_63": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.17.0",
+      "label": "Mapa",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": null,
+        "scaleRange": null,
+        "layoutIndex": 1
+      },
+      "id": "widget_63",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_67"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_64": {
+      "uri": "widgets/common/controller/",
+      "version": "1.17.0",
+      "label": "Controlador de widget",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {}
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": false,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            }
+          }
+        }
+      },
+      "id": "widget_64",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_68"
+        }
+      }
+    },
+    "widget_65": {
+      "uri": "widgets/arcgis/basemap-gallery/",
+      "version": "1.17.0",
+      "label": "Galería de mapas base",
+      "config": {},
+      "id": "widget_65",
+      "useMapWidgetIds": [
+        "widget_63"
+      ]
+    },
+    "widget_66": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.17.0",
+      "label": "Leyenda",
+      "config": {},
+      "id": "widget_66",
+      "useMapWidgetIds": [
+        "widget_63"
+      ]
+    },
+    "widget_67": {
+      "uri": "widgets/common/chart/",
+      "version": "1.17.0",
+      "label": "Gráfico",
+      "config": {
+        "template": "stacked-bar",
+        "webChart": {
+          "version": "16.1.1",
+          "id": "stacked-bar",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "autonomia"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "FID",
+                  "outStatisticFieldName": "count_of_FID"
+                }
+              ],
+              "where": "suceso={value}"
+            }
+          },
+          "rotated": true,
+          "colorMatch": true,
+          "stackedType": "stacked",
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "EVENTOS",
+              "name": "EVENTOS",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='EVENTOS'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "METEOROLÓGICO",
+              "name": "METEOROLÓGICO",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#77B484",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='METEOROLÓGICO'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "OBRAS",
+              "name": "OBRAS",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DF6B35",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='OBRAS'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "OTROS",
+              "name": "OTROS",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#DBCF4E",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='OTROS'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "RESTRICCIONES",
+              "name": "RESTRICCIONES",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#41546D",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='RESTRICCIONES'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "RETENCIÓN / CONGESTIÓN",
+              "name": "RETENCIÓN / CONGESTIÓN",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#8257C2",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='RETENCIÓN / CONGESTIÓN'"
+              }
+            },
+            {
+              "type": "barSeries",
+              "id": "__other-split-value__",
+              "name": "Undefined",
+              "x": "autonomia",
+              "y": "FID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#D6D6D6",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--ref-palette-neutral-700)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "right",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true,
+              "query": {
+                "where": "suceso='__other-split-value__'"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--ref-palette-white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 16,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Incidencias por CCAA"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--ref-palette-neutral-1100)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "bottom"
+          },
+          "orderOptions": {
+            "data": {
+              "orderType": "arcgis-charts-category",
+              "orderBy": "ASC"
+            }
+          }
+        },
+        "tools": {
+          "cursorEnable": true
+        },
+        "options": {
+          "hideEmptySeries": false
+        }
+      },
+      "id": "widget_67",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-19639b3e84d-layer-2",
+          "mainDataSourceId": "dataSource_1-19639b3e84d-layer-2",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "autonomia",
+            "FID",
+            "suceso"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_67_output"
+      ],
+      "enableDataAction": false
+    },
+    "widget_68": {
+      "uri": "widgets/arcgis/measurement/",
+      "version": "1.17.0",
+      "label": "Medición",
+      "config": {
+        "enableDistance": true,
+        "defaultDistanceUnit": "metric",
+        "enableArea": true,
+        "defaultAreaUnit": "metric",
+        "arrangement": "CLASSIC"
+      },
+      "id": "widget_68",
+      "useMapWidgetIds": [
+        "widget_63"
+      ]
+    },
+    "widget_69": {
+      "uri": "widgets/arcgis/my-location/",
+      "version": "1.17.0",
+      "label": "Mi ubicación",
+      "config": {},
+      "id": "widget_69",
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_63"
+      ],
+      "outputDataSources": [
+        "widget_69_output_track"
+      ],
+      "useDataSources": []
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_17": {
+      "id": "view_17",
+      "label": "Vista",
+      "layout": {
+        "LARGE": "layout_62"
+      }
+    }
+  },
+  "sections": {
+    "section_16": {
+      "id": "section_16",
+      "label": "Sección",
+      "views": [
+        "view_17"
+      ]
+    }
+  },
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://vicentgn.maps.arcgis.com"
+  },
+  "sharedThemeVariables": null,
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Incidentes en las carreteras de España_VGN",
+      "itemId": "aa4422a3c45d4a948a46505dee445872",
+      "portalUrl": "https://vicentgn.maps.arcgis.com"
+    },
+    "widget_67_output": {
+      "id": "widget_67_output",
+      "type": "FEATURE_LAYER",
+      "label": "Estadísticas de Gráfico",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_1-19639b3e84d-layer-2",
+          "mainDataSourceId": "dataSource_1-19639b3e84d-layer-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "Estadísticas de Gráfico",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "name": "__outputid__"
+          },
+          "autonomia": {
+            "jimuName": "autonomia",
+            "name": "autonomia",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Autonomia",
+            "format": null,
+            "originFields": [
+              "autonomia"
+            ]
+          },
+          "count_of_FID_of_EVENTOS": {
+            "jimuName": "count_of_FID_of_EVENTOS",
+            "name": "count_of_FID_of_EVENTOS",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of EVENTOS",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          },
+          "count_of_FID_of_METEOROLÓGICO": {
+            "jimuName": "count_of_FID_of_METEOROLÓGICO",
+            "name": "count_of_FID_of_METEOROLÓGICO",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of METEOROLÓGICO",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          },
+          "count_of_FID_of_OBRAS": {
+            "jimuName": "count_of_FID_of_OBRAS",
+            "name": "count_of_FID_of_OBRAS",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of OBRAS",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          },
+          "count_of_FID_of_OTROS": {
+            "jimuName": "count_of_FID_of_OTROS",
+            "name": "count_of_FID_of_OTROS",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of OTROS",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          },
+          "count_of_FID_of_RESTRICCIONES": {
+            "jimuName": "count_of_FID_of_RESTRICCIONES",
+            "name": "count_of_FID_of_RESTRICCIONES",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of RESTRICCIONES",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          },
+          "count_of_FID_of_RETENCIÓN / CONGESTIÓN": {
+            "jimuName": "count_of_FID_of_RETENCIÓN / CONGESTIÓN",
+            "name": "count_of_FID_of_RETENCIÓN / CONGESTIÓN",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Count of FID of RETENCIÓN / CONGESTIÓN",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            },
+            "originFields": [
+              "FID",
+              "suceso"
+            ]
+          }
+        }
+      }
+    },
+    "widget_69_output_track": {
+      "id": "widget_69_output_track",
+      "type": "FEATURE_LAYER",
+      "label": "Ubicaciones",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "Ubicaciones",
+        "idField": "OBJECTID",
+        "fields": {
+          "OBJECTID": {
+            "jimuName": "OBJECTID",
+            "name": "OBJECTID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID"
+          },
+          "location_timestamp": {
+            "jimuName": "location_timestamp",
+            "name": "location_timestamp",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Marca de hora",
+            "format": {
+              "dateFormat": "shortDateLongTime24"
+            }
+          },
+          "Longitude": {
+            "jimuName": "Longitude",
+            "name": "Longitude",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Longitud"
+          },
+          "Latitude": {
+            "jimuName": "Latitude",
+            "name": "Latitude",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Latitud"
+          },
+          "altitude": {
+            "jimuName": "altitude",
+            "name": "altitude",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Altitud"
+          },
+          "Orientation": {
+            "jimuName": "Orientation",
+            "name": "Orientation",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Orientación"
+          },
+          "speed": {
+            "jimuName": "speed",
+            "name": "speed",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Velocidad"
+          },
+          "Accuracy": {
+            "jimuName": "Accuracy",
+            "name": "Accuracy",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Precisión"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint",
+      "layerId": "widget_69_output_track__layer"
+    }
+  },
+  "originExbVersion": "1.17.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_3": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_28"
+    },
+    "height": {
+      "LARGE": 75
+    },
+    "backgroundColor": "var(--light-300)"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_35",
+      "SMALL": "layout_37"
+    },
+    "height": {
+      "LARGE": 75,
+      "SMALL": "154"
+    },
+    "backgroundColor": "var(--light-300)"
+  },
+  "customTheme": {},
+  "timestamp": 1744731635204
+}
